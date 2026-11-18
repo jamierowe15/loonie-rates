@@ -4,11 +4,13 @@ A UIKit iPhone app that shows the **Bank of Canada's daily exchange rates**, cha
 converts amounts to and from Canadian dollars, in **English and French**.
 
 <!-- auto:demo -->
-_Not generated yet. Run `bash loonie-rates-lab.sh evidence`._
+<img src="docs/images/demo.gif" width="280" alt="Loonie Rates demo">
 <!-- /auto:demo -->
 
 <!-- auto:gallery -->
-_Not generated yet. Run `bash loonie-rates-lab.sh evidence`._
+| Rates | Detail and chart | Converter | Dark Mode |
+|---|---|---|---|
+| <img src="docs/images/light-01-rates.png" width="200" alt="Rates"> | <img src="docs/images/light-02-detail.png" width="200" alt="Detail and chart"> | <img src="docs/images/light-03-converter.png" width="200" alt="Converter"> | <img src="docs/images/dark-01-rates.png" width="200" alt="Dark Mode"> |
 <!-- /auto:gallery -->
 
 ## Features
@@ -39,7 +41,9 @@ No Mac? Every push is built and tested on GitHub's Macs: see the Actions tab.
 
 ## Coverage
 <!-- auto:coverage -->
-_Not generated yet. Run `bash loonie-rates-lab.sh evidence`._
+| Package | Line coverage | Lines | Gate |
+|---|---|---|---|
+| RatesKit | 82.5% | 360 | PASS (min 70%) |
 <!-- /auto:coverage -->
 
 ## Docs

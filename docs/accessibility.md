@@ -16,7 +16,12 @@
 `AccessibilityAuditTests` runs Xcode's `performAccessibilityAudit()` on each screen.
 
 <!-- auto:a11y-audit -->
-_Not generated yet. Run `bash loonie-rates-lab.sh evidence`._
+| Screen | Result | Details |
+|---|---|---|
+| Rates | 2 issue(s) | Text clipped<br>Potentially inaccessible text |
+| Rate detail | 1 issue(s) | Potentially inaccessible text |
+| Converter | 2 issue(s) | Text clipped<br>Label not human-readable |
+| Rates (offline) | 1 issue(s) | Text clipped |
 <!-- /auto:a11y-audit -->
 
 ## Manual checks (do these yourself)
