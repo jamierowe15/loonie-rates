@@ -1,0 +1,46 @@
+/* Loonie Rates, français canadien. Mêmes clés que en.lproj. */
+"tab.rates" = "Taux";
+"tab.converter" = "Convertisseur";
+
+"rates.title" = "Taux de change";
+"rates.banner.offline" = "Hors ligne. Taux enregistrés le %@.";
+"rates.section.favourites" = "Favoris";
+"rates.section.all" = "Toutes les devises";
+"rates.search" = "Rechercher une devise";
+"rates.search.empty" = "Aucune devise trouvée";
+"rates.error.title" = "Impossible de charger les taux";
+
+"action.retry" = "Réessayer";
+"action.favourite" = "Ajouter aux favoris";
+"action.unfavourite" = "Retirer des favoris";
+
+"a11y.rate" = "%@ dollars canadiens. %@";
+"a11y.trend.up" = "En hausse de %@ depuis la veille";
+"a11y.trend.down" = "En baisse de %@ depuis la veille";
+"a11y.trend.flat" = "Aucun changement depuis la veille";
+"a11y.trend.none" = "Aucun taux précédent pour comparer";
+
+"error.offline" = "Vous semblez hors ligne. Vérifiez votre connexion et réessayez.";
+"error.server" = "Le service de la Banque du Canada ne répond pas (erreur %@). Réessayez plus tard.";
+"error.decoding" = "Les taux ont été reçus dans un format inattendu.";
+"error.noData" = "Aucun taux n'a été publié pour ces devises.";
+
+"detail.range.month" = "1 mois";
+"detail.range.quarter" = "3 mois";
+"detail.range.year" = "1 an";
+"detail.rate" = "1 %@ = %@ $ CA";
+"detail.source" = "Banque du Canada, %@";
+"detail.highLow" = "Haut %@ · Bas %@";
+"detail.convert" = "Convertir des %@";
+"detail.chart.loading" = "Chargement du graphique";
+"detail.chart.label" = "Graphique du %@ sur %@ jours ouvrables";
+"chart.axis.date" = "Date";
+"chart.axis.rate" = "Taux";
+
+"converter.title" = "Convertisseur";
+"converter.amount.placeholder" = "Montant en %@";
+"converter.amount.label" = "Montant (%@)";
+"converter.noRate" = "Les taux ne sont pas encore chargés. Tirez vers le bas dans l'onglet Taux.";
+"converter.invalid" = "Entrez un montant, par exemple 125,50";
+"converter.rateNote" = "1 %@ = %@ $ CA (Banque du Canada, %@)";
+"converter.currency.a11y" = "Devise : %@";

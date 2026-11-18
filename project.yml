@@ -56,16 +56,31 @@ targets:
     dependencies:
       - target: LoonieRates
 
+  LoonieRatesUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources: [UITests]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.jamierowe.loonierates.uitests
+        GENERATE_INFOPLIST_FILE: YES
+        TARGETED_DEVICE_FAMILY: "1"
+        # UI tests drive the app from outside; minimal checking keeps XCUITest's older APIs simple.
+        SWIFT_STRICT_CONCURRENCY: minimal
+    dependencies:
+      - target: LoonieRates
+
 schemes:
   LoonieRates:
     build:
       targets:
         LoonieRates: all
         LoonieRatesTests: [test]
+        LoonieRatesUITests: [test]
     run:
       config: Debug
     test:
       config: Debug
       gatherCoverageData: true
       coverageTargets: [LoonieRates]
-      targets: [LoonieRatesTests]
+      targets: [LoonieRatesTests, LoonieRatesUITests]
