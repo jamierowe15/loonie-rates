@@ -1,0 +1,46 @@
+/* Loonie Rates, English. Every key here must also be in fr.lproj. %@ is filled in by the app. */
+"tab.rates" = "Rates";
+"tab.converter" = "Converter";
+
+"rates.title" = "Exchange rates";
+"rates.banner.offline" = "Offline. Showing rates saved %@.";
+"rates.section.favourites" = "Favourites";
+"rates.section.all" = "All currencies";
+"rates.search" = "Search currencies";
+"rates.search.empty" = "No matching currencies";
+"rates.error.title" = "Can't load rates";
+
+"action.retry" = "Try again";
+"action.favourite" = "Favourite";
+"action.unfavourite" = "Remove favourite";
+
+"a11y.rate" = "%@ Canadian dollars. %@";
+"a11y.trend.up" = "Up %@ since the previous day";
+"a11y.trend.down" = "Down %@ since the previous day";
+"a11y.trend.flat" = "No change since the previous day";
+"a11y.trend.none" = "No previous rate to compare";
+
+"error.offline" = "You appear to be offline. Check your connection and try again.";
+"error.server" = "The Bank of Canada service isn't responding (error %@). Try again later.";
+"error.decoding" = "The rates came back in an unexpected format.";
+"error.noData" = "No rates were published for these currencies.";
+
+"detail.range.month" = "1 month";
+"detail.range.quarter" = "3 months";
+"detail.range.year" = "1 year";
+"detail.rate" = "1 %@ = %@ CAD";
+"detail.source" = "Bank of Canada, %@";
+"detail.highLow" = "High %@ · Low %@";
+"detail.convert" = "Convert %@";
+"detail.chart.loading" = "Loading chart";
+"detail.chart.label" = "Chart of %@ over %@ business days";
+"chart.axis.date" = "Date";
+"chart.axis.rate" = "Rate";
+
+"converter.title" = "Converter";
+"converter.amount.placeholder" = "Amount in %@";
+"converter.amount.label" = "Amount (%@)";
+"converter.noRate" = "Rates aren't loaded yet. Pull to refresh on the Rates tab.";
+"converter.invalid" = "Enter an amount, like 125.50";
+"converter.rateNote" = "1 %@ = %@ CAD (Bank of Canada, %@)";
+"converter.currency.a11y" = "Currency: %@";
