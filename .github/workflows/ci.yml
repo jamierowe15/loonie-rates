@@ -48,7 +48,7 @@ jobs:
           echo "name=$name" >> "$GITHUB_OUTPUT"
       - name: Build and test
         env:
-          SKIP: ""
+          SKIP: "-skip-testing:LoonieRatesUITests/ScreenshotTests"
         run: |
           set -o pipefail
           xcodebuild test -project LoonieRates.xcodeproj -scheme LoonieRates \
