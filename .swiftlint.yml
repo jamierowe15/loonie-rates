@@ -1,0 +1,28 @@
+included:
+  - App
+  - Packages
+  - AppTests
+  - UITests
+excluded:
+  - Packages/*/.build
+disabled_rules:
+  - trailing_comma
+  - todo
+opt_in_rules:
+  - empty_count
+  - first_where
+  - closure_spacing
+line_length:
+  warning: 140
+  error: 200
+identifier_name:
+  min_length: 1
+  excluded: [id, v, d, x, y]
+type_name:
+  min_length: 2
+function_body_length:
+  warning: 80
+  error: 150
+file_length:
+  warning: 600
+  error: 1200
